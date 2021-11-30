@@ -1,0 +1,16 @@
+PODS:
+  - WHTabbar (0.1.0)
+
+DEPENDENCIES:
+  - WHTabbar (from `../`)
+
+EXTERNAL SOURCES:
+  WHTabbar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WHTabbar: 439ecaa930ba7d2024f48892ea11875c8bab047d
+
+PODFILE CHECKSUM: 69938265471d1a630096c7ef535b929d825a2e9e
+
+COCOAPODS: 1.11.2

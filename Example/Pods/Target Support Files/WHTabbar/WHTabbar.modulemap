@@ -1,0 +1,6 @@
+framework module WHTabbar {
+  umbrella header "WHTabbar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69C7674327560E1B00C86147 /* extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C7674227560E1B00C86147 /* extentions.swift */; };
+		69C7674527561AB900C86147 /* WHTabbarCurved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C7674427561AB900C86147 /* WHTabbarCurved.swift */; };
+		789D6F58AC1AC114F8C83AC861B6B883 /* WHTabbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C96E8C029712F7568C3934975C13236 /* WHTabbar-dummy.m */; };
+		94B06003669259E4B41C58AC4B4DC3B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9907A3575D5C4C66E4031564BC861B1A /* WHTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC970D897BB2596D9505DC2A58907E8D /* WHTabbarController.swift */; };
+		A51BE60587CD93FC5AD7C4BF8F1D906A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AF7E86497648DB45E318A0A0C920AF2A /* Pods-WHTabbar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE2104D633F517091EE9E57109CCD4 /* Pods-WHTabbar_Example-dummy.m */; };
+		BFE5171A4E103C725F73777FB39952FF /* Pods-WHTabbar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77031D33C5A279593988D0A8945F065A /* Pods-WHTabbar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5C0AB567B3D26CD2435D2B631D5B107 /* Pods-WHTabbar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FF64D42A7F6DDF520EEFE6A85D2526 /* Pods-WHTabbar_Tests-dummy.m */; };
+		E0E0632195727804BF071758F656596B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F566EC97DAA1C4CB2F68EE46DCF04F4F /* Pods-WHTabbar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B84F0504E45B2CE3CDB48923153071A /* Pods-WHTabbar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F625F4D0E7BBB1F2EB676C2F4B6F550E /* WHTabbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB5011E310AD960B7F3C04FEE233B27 /* WHTabbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBF2FA6F0A467EF8EBE0BA20D1244DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E43980A19530886FDD4608B289B02673;
+			remoteInfo = WHTabbar;
+		};
+		ED9AE94EBDCA29E4B9FC7A659AD07385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD799177803502F2A9928D6D963E649;
+			remoteInfo = "Pods-WHTabbar_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D4AB4179E0CEE2E4A4B3821286CE637 /* Pods-WHTabbar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WHTabbar_Tests.modulemap"; sourceTree = "<group>"; };
+		2AB5011E310AD960B7F3C04FEE233B27 /* WHTabbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHTabbar-umbrella.h"; sourceTree = "<group>"; };
+		2C72902D52E62403CE0CE463895060E7 /* Pods-WHTabbar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WHTabbar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2E18412E73513908472CDE5606F71EED /* Pods-WHTabbar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WHTabbar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		318124ABF82F4AA95C8732E91AA101C3 /* Pods-WHTabbar_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WHTabbar_Example"; path = Pods_WHTabbar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1D1B709C3E07DC9797106D18F81183 /* WHTabbar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WHTabbar; path = WHTabbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE185EEE37F13F35D6705C234BBD180 /* Pods-WHTabbar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHTabbar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3F808125FE44148ADE33EE880F41CD86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4AAE2104D633F517091EE9E57109CCD4 /* Pods-WHTabbar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WHTabbar_Example-dummy.m"; sourceTree = "<group>"; };
+		4E61C61C84A37A865841DC5AB11B457E /* Pods-WHTabbar_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WHTabbar_Tests"; path = Pods_WHTabbar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6423B7AD915A8AE5DAADB3847D3C9404 /* WHTabbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WHTabbar.modulemap; sourceTree = "<group>"; };
+		693712C59AE6DCFF617666B05AC7595E /* WHTabbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHTabbar-prefix.pch"; sourceTree = "<group>"; };
+		69C7674227560E1B00C86147 /* extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = extentions.swift; path = WHTabbar/Classes/extentions.swift; sourceTree = "<group>"; };
+		69C7674427561AB900C86147 /* WHTabbarCurved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WHTabbarCurved.swift; path = WHTabbar/Classes/WHTabbarCurved.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77031D33C5A279593988D0A8945F065A /* Pods-WHTabbar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WHTabbar_Example-umbrella.h"; sourceTree = "<group>"; };
+		773EACCF25A27054BA955363A00F3BB0 /* Pods-WHTabbar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHTabbar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B84F0504E45B2CE3CDB48923153071A /* Pods-WHTabbar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WHTabbar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8C96E8C029712F7568C3934975C13236 /* WHTabbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WHTabbar-dummy.m"; sourceTree = "<group>"; };
+		94E67AE8E208C6714E503B58313C7794 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9799DF320B9D0C8A3E204641D31F8CBD /* WHTabbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHTabbar.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EECB35D43B4DED06C136F07EFEF8852 /* Pods-WHTabbar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHTabbar_Tests-Info.plist"; sourceTree = "<group>"; };
+		A0FF64D42A7F6DDF520EEFE6A85D2526 /* Pods-WHTabbar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WHTabbar_Tests-dummy.m"; sourceTree = "<group>"; };
+		AC5CED262E45A0C6CDE8642801AED304 /* WHTabbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHTabbar.release.xcconfig; sourceTree = "<group>"; };
+		AC970D897BB2596D9505DC2A58907E8D /* WHTabbarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHTabbarController.swift; path = WHTabbar/Classes/WHTabbarController.swift; sourceTree = "<group>"; };
+		AFF867FA90D5B836ECE787BD7386D632 /* Pods-WHTabbar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHTabbar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B467FA686FF24990EF63879914A3E91E /* Pods-WHTabbar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WHTabbar_Example.modulemap"; sourceTree = "<group>"; };
+		C318B5964D50679C10B7631B55A657B2 /* Pods-WHTabbar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WHTabbar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6D275B8EDE4C62300D3A9004797836D /* Pods-WHTabbar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHTabbar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C935D34A1EC60F73F3D6BC3D4EB13E4E /* Pods-WHTabbar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHTabbar_Example-Info.plist"; sourceTree = "<group>"; };
+		D4A0BBA9662C9AD669462B78CC82D934 /* WHTabbar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WHTabbar-Info.plist"; sourceTree = "<group>"; };
+		E0927AC6B2D81CE51042DC4855D62E26 /* WHTabbar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WHTabbar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E5E29DB712FCB95E19CEB5DB5945FE20 /* Pods-WHTabbar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHTabbar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB50F3D8915BAE0785ED309D57BDCDF9 /* Pods-WHTabbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHTabbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1129D7DAAB5CC92E1E116AA3481297D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E0632195727804BF071758F656596B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858DB352BC6C47B106E9C89136840AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B06003669259E4B41C58AC4B4DC3B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4C2874E4834C919D57EA149A11B7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51BE60587CD93FC5AD7C4BF8F1D906A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1064512CB040D8B0E0D0588E398A8C15 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F63D3688C2FF72CE961773EE839A73B /* WHTabbar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1F63D3688C2FF72CE961773EE839A73B /* WHTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				69C7674427561AB900C86147 /* WHTabbarCurved.swift */,
+				AC970D897BB2596D9505DC2A58907E8D /* WHTabbarController.swift */,
+				69C7674227560E1B00C86147 /* extentions.swift */,
+				F1B272BC6F89582562390E11626D9ED2 /* Pod */,
+				D6A5964DB7B5C56B1741AEAF50053EC9 /* Support Files */,
+			);
+			name = WHTabbar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		39A846E7EDBB9B1F07F8577FE073AEF4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				586D1EACCAB34601E394C2B9BA15DE74 /* Pods-WHTabbar_Example */,
+				F9ED5A6431B8FCC82D6287A35E9A31E0 /* Pods-WHTabbar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		586D1EACCAB34601E394C2B9BA15DE74 /* Pods-WHTabbar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B467FA686FF24990EF63879914A3E91E /* Pods-WHTabbar_Example.modulemap */,
+				2E18412E73513908472CDE5606F71EED /* Pods-WHTabbar_Example-acknowledgements.markdown */,
+				C6D275B8EDE4C62300D3A9004797836D /* Pods-WHTabbar_Example-acknowledgements.plist */,
+				4AAE2104D633F517091EE9E57109CCD4 /* Pods-WHTabbar_Example-dummy.m */,
+				2C72902D52E62403CE0CE463895060E7 /* Pods-WHTabbar_Example-frameworks.sh */,
+				C935D34A1EC60F73F3D6BC3D4EB13E4E /* Pods-WHTabbar_Example-Info.plist */,
+				77031D33C5A279593988D0A8945F065A /* Pods-WHTabbar_Example-umbrella.h */,
+				EB50F3D8915BAE0785ED309D57BDCDF9 /* Pods-WHTabbar_Example.debug.xcconfig */,
+				3DE185EEE37F13F35D6705C234BBD180 /* Pods-WHTabbar_Example.release.xcconfig */,
+			);
+			name = "Pods-WHTabbar_Example";
+			path = "Target Support Files/Pods-WHTabbar_Example";
+			sourceTree = "<group>";
+		};
+		A12ED8D7DACEC7E13E6AC3E639025F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				318124ABF82F4AA95C8732E91AA101C3 /* Pods-WHTabbar_Example */,
+				4E61C61C84A37A865841DC5AB11B457E /* Pods-WHTabbar_Tests */,
+				3D1D1B709C3E07DC9797106D18F81183 /* WHTabbar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1064512CB040D8B0E0D0588E398A8C15 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A12ED8D7DACEC7E13E6AC3E639025F52 /* Products */,
+				39A846E7EDBB9B1F07F8577FE073AEF4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6A5964DB7B5C56B1741AEAF50053EC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6423B7AD915A8AE5DAADB3847D3C9404 /* WHTabbar.modulemap */,
+				8C96E8C029712F7568C3934975C13236 /* WHTabbar-dummy.m */,
+				D4A0BBA9662C9AD669462B78CC82D934 /* WHTabbar-Info.plist */,
+				693712C59AE6DCFF617666B05AC7595E /* WHTabbar-prefix.pch */,
+				2AB5011E310AD960B7F3C04FEE233B27 /* WHTabbar-umbrella.h */,
+				9799DF320B9D0C8A3E204641D31F8CBD /* WHTabbar.debug.xcconfig */,
+				AC5CED262E45A0C6CDE8642801AED304 /* WHTabbar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WHTabbar";
+			sourceTree = "<group>";
+		};
+		F1B272BC6F89582562390E11626D9ED2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3F808125FE44148ADE33EE880F41CD86 /* LICENSE */,
+				94E67AE8E208C6714E503B58313C7794 /* README.md */,
+				E0927AC6B2D81CE51042DC4855D62E26 /* WHTabbar.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F9ED5A6431B8FCC82D6287A35E9A31E0 /* Pods-WHTabbar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0D4AB4179E0CEE2E4A4B3821286CE637 /* Pods-WHTabbar_Tests.modulemap */,
+				C318B5964D50679C10B7631B55A657B2 /* Pods-WHTabbar_Tests-acknowledgements.markdown */,
+				E5E29DB712FCB95E19CEB5DB5945FE20 /* Pods-WHTabbar_Tests-acknowledgements.plist */,
+				A0FF64D42A7F6DDF520EEFE6A85D2526 /* Pods-WHTabbar_Tests-dummy.m */,
+				9EECB35D43B4DED06C136F07EFEF8852 /* Pods-WHTabbar_Tests-Info.plist */,
+				7B84F0504E45B2CE3CDB48923153071A /* Pods-WHTabbar_Tests-umbrella.h */,
+				AFF867FA90D5B836ECE787BD7386D632 /* Pods-WHTabbar_Tests.debug.xcconfig */,
+				773EACCF25A27054BA955363A00F3BB0 /* Pods-WHTabbar_Tests.release.xcconfig */,
+			);
+			name = "Pods-WHTabbar_Tests";
+			path = "Target Support Files/Pods-WHTabbar_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23FA6A3BAA42FFB65954D3941D89B8B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F566EC97DAA1C4CB2F68EE46DCF04F4F /* Pods-WHTabbar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DAD747A85F84C6FC5408C8619049FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F625F4D0E7BBB1F2EB676C2F4B6F550E /* WHTabbar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3C56E40C2DB199BBB1BEE319F3758E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE5171A4E103C725F73777FB39952FF /* Pods-WHTabbar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BA58C978371AA0AF8732F76B6B1332F /* Pods-WHTabbar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415B87D578C3C6B5EB487BE78984F373 /* Build configuration list for PBXNativeTarget "Pods-WHTabbar_Tests" */;
+			buildPhases = (
+				23FA6A3BAA42FFB65954D3941D89B8B0 /* Headers */,
+				9E0536E71C4420C236535854A1C2069C /* Sources */,
+				858DB352BC6C47B106E9C89136840AF7 /* Frameworks */,
+				A9CC6518A8667292623FCEB4E93D42BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215A264E80FE825E2AF3FF2BBA39041D /* PBXTargetDependency */,
+			);
+			name = "Pods-WHTabbar_Tests";
+			productName = Pods_WHTabbar_Tests;
+			productReference = 4E61C61C84A37A865841DC5AB11B457E /* Pods-WHTabbar_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCD799177803502F2A9928D6D963E649 /* Pods-WHTabbar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95D749D3BCA88F7924BE8EDAA6F0A5B /* Build configuration list for PBXNativeTarget "Pods-WHTabbar_Example" */;
+			buildPhases = (
+				FB3C56E40C2DB199BBB1BEE319F3758E /* Headers */,
+				F8DF153DD8C505C774EF5147043B7F37 /* Sources */,
+				1129D7DAAB5CC92E1E116AA3481297D5 /* Frameworks */,
+				B58B6AB08F8E84F98D71A86C06A0FAB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6A73C0B070A813B90A0D257B7FFE0B /* PBXTargetDependency */,
+			);
+			name = "Pods-WHTabbar_Example";
+			productName = Pods_WHTabbar_Example;
+			productReference = 318124ABF82F4AA95C8732E91AA101C3 /* Pods-WHTabbar_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E43980A19530886FDD4608B289B02673 /* WHTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F20CCEFB74A5EEC05312C67249750B /* Build configuration list for PBXNativeTarget "WHTabbar" */;
+			buildPhases = (
+				83DAD747A85F84C6FC5408C8619049FE /* Headers */,
+				BCB2525DF044C916A6038A659B6C8048 /* Sources */,
+				AD4C2874E4834C919D57EA149A11B7C5 /* Frameworks */,
+				FF5B518A5042720CDD1F6C4973E9F958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHTabbar;
+			productName = WHTabbar;
+			productReference = 3D1D1B709C3E07DC9797106D18F81183 /* WHTabbar */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A12ED8D7DACEC7E13E6AC3E639025F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD799177803502F2A9928D6D963E649 /* Pods-WHTabbar_Example */,
+				2BA58C978371AA0AF8732F76B6B1332F /* Pods-WHTabbar_Tests */,
+				E43980A19530886FDD4608B289B02673 /* WHTabbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9CC6518A8667292623FCEB4E93D42BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B58B6AB08F8E84F98D71A86C06A0FAB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5B518A5042720CDD1F6C4973E9F958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E0536E71C4420C236535854A1C2069C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C0AB567B3D26CD2435D2B631D5B107 /* Pods-WHTabbar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB2525DF044C916A6038A659B6C8048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C7674327560E1B00C86147 /* extentions.swift in Sources */,
+				9907A3575D5C4C66E4031564BC861B1A /* WHTabbarController.swift in Sources */,
+				789D6F58AC1AC114F8C83AC861B6B883 /* WHTabbar-dummy.m in Sources */,
+				69C7674527561AB900C86147 /* WHTabbarCurved.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DF153DD8C505C774EF5147043B7F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7E86497648DB45E318A0A0C920AF2A /* Pods-WHTabbar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		215A264E80FE825E2AF3FF2BBA39041D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WHTabbar_Example";
+			target = BCD799177803502F2A9928D6D963E649 /* Pods-WHTabbar_Example */;
+			targetProxy = ED9AE94EBDCA29E4B9FC7A659AD07385 /* PBXContainerItemProxy */;
+		};
+		3F6A73C0B070A813B90A0D257B7FFE0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WHTabbar;
+			target = E43980A19530886FDD4608B289B02673 /* WHTabbar */;
+			targetProxy = CBF2FA6F0A467EF8EBE0BA20D1244DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A159C8C359EB86DBF459CC0711038E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE185EEE37F13F35D6705C234BBD180 /* Pods-WHTabbar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHTabbar_Example/Pods-WHTabbar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHTabbar_Example/Pods-WHTabbar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FA16DC176978A86FFB1926C10FD38FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF867FA90D5B836ECE787BD7386D632 /* Pods-WHTabbar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHTabbar_Tests/Pods-WHTabbar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHTabbar_Tests/Pods-WHTabbar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88A29B0B3F7F091D9B5D969A3DED8927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773EACCF25A27054BA955363A00F3BB0 /* Pods-WHTabbar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHTabbar_Tests/Pods-WHTabbar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHTabbar_Tests/Pods-WHTabbar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B573BC01EB0EA4CB94197BC098523F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB50F3D8915BAE0785ED309D57BDCDF9 /* Pods-WHTabbar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WHTabbar_Example/Pods-WHTabbar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WHTabbar_Example/Pods-WHTabbar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EC6E3B8F7CA26D39037AB1C4A9362291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC5CED262E45A0C6CDE8642801AED304 /* WHTabbar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WHTabbar/WHTabbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHTabbar/WHTabbar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHTabbar/WHTabbar.modulemap";
+				PRODUCT_MODULE_NAME = WHTabbar;
+				PRODUCT_NAME = WHTabbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBA05F32C3A05E912A691FEC94000064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9799DF320B9D0C8A3E204641D31F8CBD /* WHTabbar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WHTabbar/WHTabbar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHTabbar/WHTabbar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHTabbar/WHTabbar.modulemap";
+				PRODUCT_MODULE_NAME = WHTabbar;
+				PRODUCT_NAME = WHTabbar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		415B87D578C3C6B5EB487BE78984F373 /* Build configuration list for PBXNativeTarget "Pods-WHTabbar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA16DC176978A86FFB1926C10FD38FB /* Debug */,
+				88A29B0B3F7F091D9B5D969A3DED8927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F20CCEFB74A5EEC05312C67249750B /* Build configuration list for PBXNativeTarget "WHTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA05F32C3A05E912A691FEC94000064 /* Debug */,
+				EC6E3B8F7CA26D39037AB1C4A9362291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95D749D3BCA88F7924BE8EDAA6F0A5B /* Build configuration list for PBXNativeTarget "Pods-WHTabbar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B573BC01EB0EA4CB94197BC098523F79 /* Debug */,
+				5A159C8C359EB86DBF459CC0711038E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

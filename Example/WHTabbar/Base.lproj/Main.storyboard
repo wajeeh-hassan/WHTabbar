@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4XO-xU-KoI">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,6 +24,112 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-284" y="-135"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="3hz-7y-T0m">
+            <objects>
+                <viewController id="JB2-Sm-Seh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MWf-yw-72S"/>
+                        <viewControllerLayoutGuide type="bottom" id="yXY-ks-Qtf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I1E-ve-GKG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="ZcA-hA-yc1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rOc-9i-hVL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="635" y="1233"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="l2N-AV-UGW">
+            <objects>
+                <viewController id="98w-O2-JBS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mAJ-pd-LBx"/>
+                        <viewControllerLayoutGuide type="bottom" id="IEf-l7-A9Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aRF-EZ-osf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="36g-DK-pmq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cFd-VH-kzQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="635" y="625"/>
+        </scene>
+        <!--Tabbar Controller-->
+        <scene sceneID="Aph-Yr-s6Q">
+            <objects>
+                <tabBarController id="4XO-xU-KoI" customClass="WHTabbarController" customModule="WHTabbar" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yde-N1-2c9" customClass="WHTabbarCurved" customModule="WHTabbar">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="98w-O2-JBS" kind="relationship" relationship="viewControllers" id="ecK-kW-xRA"/>
+                        <segue destination="JB2-Sm-Seh" kind="relationship" relationship="viewControllers" id="VLg-rI-l91"/>
+                        <segue destination="bjP-Kg-w3d" kind="relationship" relationship="viewControllers" id="wdI-Nw-VEd"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ws-lE-UCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-284" y="929"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="dKp-ei-aPh">
+            <objects>
+                <viewController id="bjP-Kg-w3d" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zdm-zV-fKW"/>
+                        <viewControllerLayoutGuide type="bottom" id="8cX-yG-L8x"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PHX-fB-Z8B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="sl8-KI-8cC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7tg-UV-ABP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1271" y="1814"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="lPn-Ax-zyR">
+            <objects>
+                <viewController id="gLY-8t-IWA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gkl-zg-g32"/>
+                        <viewControllerLayoutGuide type="bottom" id="dgw-V9-5g2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HuT-aI-H2W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="Cub-Sb-Iih"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SA4-gi-wf0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="634" y="1979"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="Yde-N1-2c9">
+            <size key="intrinsicContentSize" width="-1" height="49"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
