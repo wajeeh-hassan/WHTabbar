@@ -11,6 +11,11 @@ import Foundation
 class WHTabbarCurved: UITabBar {
     
     private var shapeLayer: CALayer?
+    
+    
+   
+    
+    
     private func addShape() {
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = createPath()
@@ -31,10 +36,13 @@ class WHTabbarCurved: UITabBar {
         }
         self.shapeLayer = shapeLayer
     }
+    
     override func draw(_ rect: CGRect) {
         self.addShape()
     }
+
     func createPath() -> CGPath {
+        
         let height: CGFloat = 35.0
         let path = UIBezierPath()
         let centerWidth = self.frame.width / 2

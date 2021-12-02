@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		69F2F8B527591E4200CEF4C9 /* mTbbarVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F2F8B427591E4200CEF4C9 /* mTbbarVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +41,14 @@
 		607FACE51AFB9204008FA782 /* WHTabbar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHTabbar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		69F2F8B427591E4200CEF4C9 /* mTbbarVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mTbbarVc.swift; sourceTree = "<group>"; };
 		71A88237A06FF63C2E7CF5B5 /* Pods-WHTabbar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHTabbar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WHTabbar_Tests/Pods-WHTabbar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		75EAD30FE292C9343652A609 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AFFC5247F50241C3E6254BEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		75EAD30FE292C9343652A609 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AFFC5247F50241C3E6254BEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BC9E8C1AA07CF15153CF4398 /* Pods_WHTabbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHTabbar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBACAF8C917FD3C07AEAF01 /* Pods-WHTabbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHTabbar_Example.debug.xcconfig"; path = "Target Support Files/Pods-WHTabbar_Example/Pods-WHTabbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1EB59AC48AEFD5AA0568881 /* Pods_WHTabbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHTabbar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3E6B987D65FE5CD8B7407B5 /* WHTabbar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WHTabbar.podspec; path = ../WHTabbar.podspec; sourceTree = "<group>"; };
+		E3E6B987D65FE5CD8B7407B5 /* WHTabbar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WHTabbar.podspec; path = ../WHTabbar.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				69F2F8B427591E4200CEF4C9 /* mTbbarVc.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -156,7 +159,6 @@
 				71A88237A06FF63C2E7CF5B5 /* Pods-WHTabbar_Tests.debug.xcconfig */,
 				3BEAEC2AE9456B34C0EDD2A9 /* Pods-WHTabbar_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -333,6 +336,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				69F2F8B527591E4200CEF4C9 /* mTbbarVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

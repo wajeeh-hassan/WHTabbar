@@ -48,7 +48,7 @@
         <!--Item 1-->
         <scene sceneID="l2N-AV-UGW">
             <objects>
-                <viewController id="98w-O2-JBS" sceneMemberID="viewController">
+                <viewController id="98w-O2-JBS" customClass="ViewController" customModule="WHTabbar_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mAJ-pd-LBx"/>
                         <viewControllerLayoutGuide type="bottom" id="IEf-l7-A9Y"/>
@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="635" y="625"/>
         </scene>
-        <!--Tabbar Controller-->
+        <!--Tbbar Vc-->
         <scene sceneID="Aph-Yr-s6Q">
             <objects>
-                <tabBarController id="4XO-xU-KoI" customClass="WHTabbarController" customModule="WHTabbar" sceneMemberID="viewController">
+                <tabBarController id="4XO-xU-KoI" customClass="mTbbarVc" customModule="WHTabbar_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yde-N1-2c9" customClass="WHTabbarCurved" customModule="WHTabbar">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
