@@ -7,16 +7,11 @@
 
 import Foundation
 
-@IBDesignable
-class WHTabbarCurved: UITabBar {
+extension WHTabbarController {
     
-    private var shapeLayer: CALayer?
-    
-    
-   
-    
-    
-    private func addShape() {
+
+    public func makeTabbarCurved() {
+        
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = createPath()
         shapeLayer.strokeColor = UIColor.lightGray.cgColor
@@ -30,22 +25,19 @@ class WHTabbarCurved: UITabBar {
         shapeLayer.shadowOpacity = 0.3
         
         if let oldShapeLayer = self.shapeLayer {
-            self.layer.replaceSublayer(oldShapeLayer, with: shapeLayer)
+            self.tabBar.layer.replaceSublayer(oldShapeLayer, with: shapeLayer)
         } else {
-            self.layer.insertSublayer(shapeLayer, at: 0)
+            self.tabBar.layer.insertSublayer(shapeLayer, at: 0)
         }
         self.shapeLayer = shapeLayer
     }
     
-    override func draw(_ rect: CGRect) {
-        self.addShape()
-    }
-
-    func createPath() -> CGPath {
+   
+    public func createPath() -> CGPath {
         
         let height: CGFloat = 35.0
         let path = UIBezierPath()
-        let centerWidth = self.frame.width / 2
+        let centerWidth = self.tabBar.frame.width / 2
         path.move(to: CGPoint(x: 0, y: 0)) // start top left
         path.addLine(to: CGPoint(x: (centerWidth - height * 2), y: 0)) // the beginning of the trough
         
@@ -55,9 +47,9 @@ class WHTabbarCurved: UITabBar {
         path.addCurve(to: CGPoint(x: (centerWidth + height * 2), y: 0),
                       controlPoint1: CGPoint(x: centerWidth + 35, y: height), controlPoint2: CGPoint(x: (centerWidth + 30), y: 0))
         
-        path.addLine(to: CGPoint(x: self.frame.width, y: 0))
-        path.addLine(to: CGPoint(x: self.frame.width, y: self.frame.height))
-        path.addLine(to: CGPoint(x: 0, y: self.frame.height))
+        path.addLine(to: CGPoint(x: self.tabBar.frame.width, y: 0))
+        path.addLine(to: CGPoint(x: self.tabBar.frame.width, y: self.tabBar.frame.height))
+        path.addLine(to: CGPoint(x: 0, y: self.tabBar.frame.height))
         path.close()
         
         return path.cgPath

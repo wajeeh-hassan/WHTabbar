@@ -13,13 +13,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-//            WHTabbarController.shared.centerButtonSize = 20
-//
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-//            WHTabbarController.shared.setupCenetrButton()
-//        }
 
     }
 

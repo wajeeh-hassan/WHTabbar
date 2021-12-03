@@ -8,27 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
-            <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="WHTabbar_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-284" y="-135"/>
-        </scene>
         <!--Item 2-->
         <scene sceneID="3hz-7y-T0m">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rOc-9i-hVL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="JB2-Sm-Seh" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MWf-yw-72S"/>
@@ -41,13 +24,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="ZcA-hA-yc1"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rOc-9i-hVL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="635" y="1233"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="l2N-AV-UGW">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cFd-VH-kzQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="98w-O2-JBS" customClass="ViewController" customModule="WHTabbar_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mAJ-pd-LBx"/>
@@ -60,15 +43,15 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="36g-DK-pmq"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cFd-VH-kzQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="635" y="625"/>
         </scene>
         <!--Tbbar Vc-->
         <scene sceneID="Aph-Yr-s6Q">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ws-lE-UCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="4XO-xU-KoI" customClass="mTbbarVc" customModule="WHTabbar_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yde-N1-2c9" customClass="WHTabbarCurved" customModule="WHTabbar">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Yde-N1-2c9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -79,7 +62,6 @@
                         <segue destination="bjP-Kg-w3d" kind="relationship" relationship="viewControllers" id="wdI-Nw-VEd"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ws-lE-UCV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-284" y="929"/>
         </scene>
@@ -102,31 +84,7 @@
             </objects>
             <point key="canvasLocation" x="-1271" y="1814"/>
         </scene>
-        <!--Item 2-->
-        <scene sceneID="lPn-Ax-zyR">
-            <objects>
-                <viewController id="gLY-8t-IWA" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="gkl-zg-g32"/>
-                        <viewControllerLayoutGuide type="bottom" id="dgw-V9-5g2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="HuT-aI-H2W">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Cub-Sb-Iih"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SA4-gi-wf0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="634" y="1979"/>
-        </scene>
     </scenes>
-    <designables>
-        <designable name="Yde-N1-2c9">
-            <size key="intrinsicContentSize" width="-1" height="49"/>
-        </designable>
-    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
