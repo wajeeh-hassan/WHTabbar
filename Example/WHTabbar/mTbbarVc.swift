@@ -9,6 +9,7 @@
 import UIKit
 import WHTabbar
 
+@available(iOS 15.0, *)
 class mTbbarVc: WHTabbarController {
 
     override func viewDidLoad() {
@@ -30,11 +31,15 @@ class mTbbarVc: WHTabbarController {
         centerButtonImageSize = 30
         centerButtonImage = UIImage(named: "ic_wicket")
         
+        
+        
         // vPosition +ev value will move button Up
         // vPosition -ev value will move button Down
-
-        setupCenetrButton(vPosition: 0)
+        setupCenetrButton(vPosition: 0) {
+            print("center button clicked")
+        }
         
-
+        
+        
     }
 }

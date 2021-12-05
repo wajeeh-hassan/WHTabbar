@@ -30,22 +30,9 @@ open class WHTabbarController: UITabBarController {
     
     open override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
     }
     
-    @objc func centerButtonAction(sender: UIButton) {
-        
-    }
-    
-    open override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
-    }
-    open override func tabBar(_ tabBar: UITabBar, willBeginCustomizing items: [UITabBarItem]) {
-        
-    }
-    
-    public func setupCenetrButton(vPosition : CGFloat)  {
+    public func setupCenetrButton(vPosition : CGFloat ,  buttonClicked: @escaping()->Void )  {
             
         
         if isCurvedTabbar{
@@ -62,12 +49,7 @@ open class WHTabbarController: UITabBarController {
             bottomSafeArea = bottomLayoutGuide.length
         }
         
-        if blockView != nil {
-            blockView?.removeFromSuperview()
-        }
-        if centreButtonContainer != nil {
-            centreButtonContainer?.removeFromSuperview()
-        }
+      
         
         if UIDevice.current.userInterfaceIdiom == .pad {
             self.tabBar.items?[2].title = ""
@@ -99,12 +81,11 @@ open class WHTabbarController: UITabBarController {
         centreButtonContainer.backgroundColor = centerButtonBackroundColor
         centreButtonContainer.layer.borderColor = centerButtonBorderColor.cgColor
         centreButtonContainer.layer.borderWidth = centerButtonBorderWidth
-        
+        centreButtonContainer.clipsToBounds = true
         
         let blockView = UIView(frame: CGRect(x: centreButtonContainer.center.x , y: centreButtonContainer.frame.minY, width: centerButtonSize + 20 , height: self.tabBar.frame.height))
         
         
-        let centerButton = UIButton(frame: centreButtonContainer.frame)
         let centerButtonImageView = UIImageView(frame: CGRect(x: 0 , y: 0, width: centerButtonImageSize, height: centerButtonImageSize))
         
         centerButtonImageView.center = CGPoint(x: centreButtonContainer.frame.size.width  / 2,
@@ -112,20 +93,18 @@ open class WHTabbarController: UITabBarController {
         
         centerButtonImageView.image = centerButtonImage
         
-        centerButton.addTarget(self, action: #selector(centerButtonAction(sender:)), for: .touchUpInside)
-        
-        
         blockView.backgroundColor = UIColor.clear
         blockView.center.x = centreButtonContainer.center.x
         
-        
-        
         self.view.addSubview(blockView)
         self.view.addSubview(centreButtonContainer)
+        self.view.bringSubview(toFront: centreButtonContainer)
         
         centreButtonContainer.addSubview(centerButtonImageView)
-        centreButtonContainer.addSubview(centerButton)
         
+        centreButtonContainer.TapLisner {
+            buttonClicked()
+        }
         
         
     }
@@ -135,3 +114,5 @@ open class WHTabbarController: UITabBarController {
     
     
 }
+
+
