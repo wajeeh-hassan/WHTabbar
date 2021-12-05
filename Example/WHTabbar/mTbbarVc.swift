@@ -9,7 +9,6 @@
 import UIKit
 import WHTabbar
 
-@available(iOS 15.0, *)
 class mTbbarVc: WHTabbarController {
 
     override func viewDidLoad() {

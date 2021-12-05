@@ -71,7 +71,7 @@
 		C6D275B8EDE4C62300D3A9004797836D /* Pods-WHTabbar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHTabbar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C935D34A1EC60F73F3D6BC3D4EB13E4E /* Pods-WHTabbar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHTabbar_Example-Info.plist"; sourceTree = "<group>"; };
 		D4A0BBA9662C9AD669462B78CC82D934 /* WHTabbar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WHTabbar-Info.plist"; sourceTree = "<group>"; };
-		E0927AC6B2D81CE51042DC4855D62E26 /* WHTabbar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WHTabbar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E0927AC6B2D81CE51042DC4855D62E26 /* WHTabbar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WHTabbar.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		E5E29DB712FCB95E19CEB5DB5945FE20 /* Pods-WHTabbar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WHTabbar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EB50F3D8915BAE0785ED309D57BDCDF9 /* Pods-WHTabbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WHTabbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
