@@ -50,9 +50,21 @@ open class WHTabbarController: UITabBarController {
         }
         
       
-        
+
         if UIDevice.current.userInterfaceIdiom == .pad {
-            self.tabBar.items?[2].title = ""
+            
+            let tabCount = self.tabBar.items?.count
+            switch tabCount {
+            case 3:
+                self.tabBar.items?[1].title = ""
+                break
+            case 5:
+                self.tabBar.items?[2].title = ""
+                break
+            default:
+                print("")
+            }
+            
         }
         
         let centreButtonContainer = UIView(frame: CGRect(x: 0, y: 0, width: centerButtonSize , height: centerButtonSize))
@@ -69,13 +81,12 @@ open class WHTabbarController: UITabBarController {
         
         centerButtonBottomMargin = centerButtonBottomMargin + vPosition
 
-        if UIDevice().userInterfaceIdiom == .phone {
-            
-            centreButtonContainer.frame.origin.y = self.view.bounds.height - centerButtonBottomMargin
-            
-            centreButtonContainer.frame.origin.x = self.view.bounds.width/2 - centreButtonContainer.frame.width/2
-            
-        }
+        
+        centreButtonContainer.frame.origin.y = self.view.bounds.height - centerButtonBottomMargin
+        
+        centreButtonContainer.frame.origin.x = self.view.bounds.width/2 - centreButtonContainer.frame.width/2
+        
+        
         
         
         centreButtonContainer.backgroundColor = centerButtonBackroundColor

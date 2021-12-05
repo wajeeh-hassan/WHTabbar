@@ -18,7 +18,6 @@ class mTbbarVc: WHTabbarController {
         // Do any additional setup after loading the view.
     
     }
-
     
     
     override func viewDidLayoutSubviews() {
@@ -37,8 +36,12 @@ class mTbbarVc: WHTabbarController {
         // vPosition -ev value will move button Down
         setupCenetrButton(vPosition: 0) {
             print("center button clicked")
+            
+            // you can navigate to some view controler from here
+            
+            // or you can enable the babbar selected item jsut like
+           // self.tabBarController?.selectedIndex = 1
         }
-        
         
         
     }
